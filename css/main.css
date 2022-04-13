@@ -1,6 +1,7 @@
 h2.game_name{
     text-transform: uppercase;
     text-align: center;
+    transition: 0.4s;
 }
 .container{
     display: flex;
