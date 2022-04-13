@@ -2,7 +2,7 @@
 const canvas = document.getElementById('canvas');
 const canvasParameters = {
   width: window.innerWidth,
-  height: window.innerHeight*0.6,
+  height: window.innerHeight-document.querySelector('.game_info').clientHeight,
   backgroundColor: 'lightblue',
 }
 canvas.width = canvasParameters.width;

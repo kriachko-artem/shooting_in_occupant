@@ -2,27 +2,28 @@
 
 <html lang="en">
 <meta charset="UTF-8">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/main.css" rel="stylesheet">
     <title> Shoot down the occupant's plane! </title>
-  </head>
-  <body>
-  <div class="container">
-      <h2 class="game_name">Shoot down the <br> occupant's plane!</h2>
-      <div class="control_buttons">
-        <button class="start"> Start </button>
-        <button class="stop"> Stop </button>
-      </div>
-    <div class="game_statistic">
-      <div> Score: <span id="score"> 0 </span> </div>
-      <div>Lifes: <span id="lifes"></span></div>
-      <div>Bullets: <span id="bullets"></span></div>
+</head>
+<body>
+    <div class="game_info">
+        <h2 class="game_name">Shoot down the <br> occupant's plane!</h2>
+        <div class="control_buttons">
+            <button class="start"> Start</button>
+            <button class="stop"> Stop</button>
+        </div>
+        <div class="game_statistic">
+            <div> Score: <span id="score"> 0 </span></div>
+            <div>Lifes: <span id="lifes"></span></div>
+            <div>Bullets: <span id="bullets"></span></div>
+        </div>
     </div>
     <canvas id="canvas"></canvas>
-  </div>
 
 
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </body>
+<script src="scripts/main.js" type="text/javascript"></script>
+</body>
 </html>
