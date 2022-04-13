@@ -72,7 +72,6 @@ ctx.fillRect(gunParameters.positionX,gunParameters.positionY,gunParameters.width
 
 
 function game (){
-  document.querySelector('.game_name').style.fontSize = '15px'
   gameParameters.isGameStarted = true;
   let newGameParameters = {...gameParameters}
   score.innerText = 0;
