@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <meta charset="UTF-8">
   <head>
     <title> JS task </title>
   </head>
   <body>
-    <div>
-      <button class="start"> Start </button>
-      <button class="stop"> Stop </button>
-      <span> Score: <span id="score"> 0 </span> </span>
+  <div class="container">
+      <h2 class="game_name">Shoot down the occupant's plane!</h2>
+      <div class="control_buttons">
+        <button class="start"> Start </button>
+        <button class="stop"> Stop </button>
+      </div>
+    <div class="game_statistic">
+      <div> Score: <span id="score"> 0 </span> </div>
+      <div>Lifes: <span id="lifes"></span></div>
+      <div>Bullets: <span id="bullets"></span></div>
     </div>
-    <canvas width="640" height="480" id="canvas"></canvas>
+    <canvas id="canvas"></canvas>
+  </div>
+
+
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
