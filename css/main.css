@@ -9,6 +9,7 @@ h2.game_name{
     text-align: center;
     transition: 0.4s;
     margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .control_buttons button{
