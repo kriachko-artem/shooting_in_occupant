@@ -9,7 +9,7 @@ canvas.width = canvasParameters.width;
 canvas.height = canvasParameters.height;
 let gameParameters = {
   isGameStarted: false,
-  numberBullets: 10,
+  numberBullets: 50,
   lifes: 3,
 }
 const startButton = document.querySelector('.start'),
