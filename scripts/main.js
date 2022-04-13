@@ -2,7 +2,7 @@
 const canvas = document.getElementById('canvas');
 const canvasParameters = {
   width: window.innerWidth,
-  height: window.innerHeight*0.7,
+  height: window.innerHeight*0.6,
   backgroundColor: 'lightblue',
 }
 canvas.width = canvasParameters.width;
@@ -21,48 +21,6 @@ const startButton = document.querySelector('.start'),
 lifes.innerHTML = gameParameters.lifes;
 numberBullets.innerHTML = gameParameters.numberBullets;
 
-
-
-let styles = `<style>
-h2.game_name{
-text-transform: uppercase;
-text-align: center;
-}
-.container{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.control_buttons button{
-background: none;
-border: none;
-font-size: 22px;
-font-weight: 600;
-cursor: pointer;
-transition: 0.3s;
-}
-.control_buttons button:hover{
-transform: scale(1.2);
-}
-.start{
-color: green;
-}
-.stop{
-color: red;
-}
-.game_statistic{
-margin: 30px 0;
-width: 100%;
-display: flex;
-justify-content: space-evenly;
-font-size: 20px;
-}
-.game_statistic > div span{
-font-weight: 600;
-}
-
-</style>`
-document.querySelector('head').insertAdjacentHTML('beforeend',styles)
 
 const ctx = canvas.getContext('2d');
 
