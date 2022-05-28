@@ -1,5 +1,5 @@
-body{
-    overflow-y: hidden;
+*{
+    overflow: hidden;
 }
 .game_info{
     padding: 15px 0;
